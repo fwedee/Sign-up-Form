@@ -1,2 +1,8 @@
 # Sign-up-Form
-A simple sing-up form
+
+### This is the first "projekt task" of the odinprojects Javascipt Path
+
+The goal of this project is to create a simple sing-up form.
+
+
+### Source (of task): https://www.theodinproject.com/
