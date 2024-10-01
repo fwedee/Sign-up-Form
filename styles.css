@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  background-image: url(resources/leafs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.left a:link {
+  color: white;
+  text-decoration: underline;
+}
+
+.left .logos {
+  background-color: rgb(15, 1, 1, 0.5);
+  margin-top: 15rem;
+  margin-bottom: 21rem;
+  gap: 30px;
+  display: flex;
+  padding: 1rem 10rem 1rem 10rem;
+}
+
+.left .odin {
+  font-size: 4rem;
+  margin-top: 1.5rem;
+}
+
+.left img {
+  height: 150px;
+  width: 150px;
+}
+
+.left footer {
+  margin-bottom: 2.05rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.right .text {
+  font-weight: bold;
+}
+
+.right .create_account a:link {
+  color: green;
+  text-decoration: none;
+}
+
+.right .create_account button {
+  color: white;
+  background-color: darkgreen;
+  border-radius: 8px;
+}
+
+.right .create_account {
+  background-color: aliceblue;
+}
+
+.right .text {
+  font-size: 1.2rem;
+  padding: 6rem 16rem 1rem 3rem;
+  background-color: rgb(199, 216, 231, 0.45);
+}
+
+.right .form {
+  margin-left: 3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.right .flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.right .flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.right .flexColumn input {
+  margin-bottom: 1.4rem;
+  padding: 0.4rem 7rem 0.4rem 0.5rem;
+  border-color: rgb(43, 39, 39, 0.2);
+}
+
+.right .flexColumn label {
+  margin-bottom: 0.5rem;
+}
+
+#doIT {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.right .create_account {
+  padding-left: 3rem;
+  background-color: rgb(199, 216, 231, 0.45);
+  padding-bottom: 6rem;
+  padding-top: 2rem;
+}
+
+.right .create_account button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}

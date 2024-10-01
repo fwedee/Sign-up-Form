@@ -8,38 +8,91 @@
   </head>
   <body>
     <div class="container">
-      <div class="photoSide"></div>
-      <div class="form">
-        <p>
-          This is not a real online service! You know you need something like
-          this in your life to help you realize your deepest dreams. Sign up now
-          to get started.
-        </p>
-        <p>You know you want to.</p>
-        <fieldset action="">
-          <legend>Let's do this!</legend>
+      <div class="left">
+        <div class="logos">
+          <img src="resources/odin-lined.png" alt="odin-logo" />
+          <p class="odin">Odin</p>
+        </div>
+        <footer>
+          <p>
+            Photo by
+            <a href="#">Hallie West</a>
+            on
+            <a href="#">Unsplash</a>
+          </p>
+        </footer>
+      </div>
 
-          <label for="first_name">First Name</label>
-          <input type="text" id="first_name" />
+      <div class="right">
+        <div class="text">
+          <p>
+            This is not a real online service! You know you need something like
+            this your life to help you realize your deepest dreams.
+          </p>
+          <p>Sign-up <i>now</i> get started.</p>
+          <br />
+          <p>You know you want to.</p>
+        </div>
+        
+        <div class="form">
+          <p id="doIT">Let's do this!</p>
+          <form action="">
+            <div class="flexRow">
 
-          <label for="last_name">Last Name</label>
-          <input type="text" id="last_name" />
+              <div class="flexColumn">
+                
+                
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" placeholder="Your name..." />
+            
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Your Email..." />
+            
+            <label for="password">Password</label>
+            <input type="text" id="password" placeholder="Password..." />
+            
+          </div>
 
-          <label for="email">Email</label>
-          <input type="text" id="email" />
+          <div class="flexColumn">
 
-          <label for="phone_number">Phone Number</label>
-          <input type="text" id="phone_number" />
+            
+            <label for="last_name">Last Name</label>
+            <input
+            type="text"
+            id="last_name"
+            placeholder="Your last name..."
+                />
+                
+            
 
-          <label for="password">Password</label>
-          <input type="text" id="password" />
+                
+                <label for="phone_number">Phone Number</label>
+                <input
+                type="text"
+                id="phone_number"
+                placeholder="Your Phone Number..."
+                />
+                <label for="confirm_password">Confirm Password</label>
+                <input
+                type="text"
+                id="confirm_password"
+                placeholder="Confirm Password"
+                />
+              </div>
+              <div>
+                
+              </div>
+                </form>
+              </div>
+        </div>
+        <div class="create_account">
+          <button>Create Account</button>
+          <p>
+            Already have an account?
+            <a href="#">Log in</a>
+          </p>
+        </div>
 
-          <label for="confirm_password">Password</label>
-          <input type="text" id="confirm_password" />
-        </fieldset>
-
-        <button>Create Account</button>
-        <p>Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>
   </body>
