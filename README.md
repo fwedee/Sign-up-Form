@@ -1,4 +1,4 @@
-# Sign-up-Form
+# sign-up-form
 
 ### This is the first "projekt task" of the odinprojects Javascipt Path
 
